@@ -1,0 +1,51 @@
+Lump KMAP49
+Usage = DS_Peach_Gardens
+Source = DS_Peach_Gardens_(FatCat)
+
+Lump KMAP50
+Usage = GBA_Rainbow_Road
+Source = GBA_Rainbow_Road_(LUCKYRiCK)
+
+Lump VVNORM
+Usage = 3DS_Rock_Rock_Mountain
+Source = 3DS_Rock_Rock_Mountain_-_MarioKart_8
+
+Lump KMAP51
+Usage = SNES_Donut_Plains_1
+Source = SNES_Donut_Plains_(Mesmonium)
+
+Lump KMAP52
+Usage = SNES_Mario_Circuit_2
+Source = SNES_Mario_Circuit_(VideoGameRemixes)
+
+Lump KMAP53
+Usage = SNES_Ghost_Valley_2
+Source = SNES_Ghost_Valley_(BlueJackG)
+
+Lump KMAP54
+Usage = SNES_Bowser_Castle_3
+Source = SNES_Bowser_Castle_(BlueJackG)
+
+Lump KMAP55
+Usage = SNES_Vanilla_Lake_2
+Source = SNES_Vanilla_Lake_(JoshhMarshh)
+
+Lump SMKRRN
+Usage = SMK_Rainbow_Road
+Source = Rainbow_Road_(MKR_Remix)_-_Super_Mario_Kart
+
+Lump MAPV8M
+Usage = Wii_Luigi_Circuit
+Source = Wii_Luigi_Circuit_(Deloof_Teg_Orb)
+
+Lump MAPV9M
+Usage = GBA_Bowser's_Castle_3
+Source = GBA_Bowser's_Castle_3_(FatCat)
+
+Lump EXTBKE
+Usage = Excitebike_Arena_-_MarioKart_8
+Source = Excitebike_Arena_-_MarioKart_8
+
+Lump MAPVZM
+Usage = N64_Bowser_Castle
+Source = N64_Bowser_Castle_(FatCat)
