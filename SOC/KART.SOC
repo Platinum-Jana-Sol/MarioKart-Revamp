@@ -1,0 +1,72 @@
+#===========#
+# Freeslots #
+#===========#
+
+Freeslot
+# Empty Kart
+# MT_EMPTYKART - Freeslotted in Lua
+SPR_KRTN
+SPR_KRTS
+S_KART
+S_KARTSQUISHED
+# Empty Kart Spawner
+# MT_EMPTYKARTSPAWNER - Freeslotted in Lua
+S_KARTSPAWNER
+
+#====================#
+# Object Definitions #
+#====================#
+
+Object MT_EMPTYKART
+#$Name Empty Kart
+#$Sprite KRTNA2A8
+#$Category Community Resources
+MapThingNum = 2507
+SpawnState  = S_KART
+SpawnHealth = 1000
+DeathState  = S_NULL
+ActiveSound = SFX_SCREEC
+Radius = 32*FRACUNIT
+Height = 32*FRACUNIT
+Speed  = 40*FRACUNIT
+Flags  = MF_SOLID|MF_SPECIAL|MF_PUSHABLE|MF_BOUNCE
+
+Object MT_EMPTYKARTSPAWNER
+#$Name Empty Kart Spawner
+#$Sprite KRTNA4A6
+#$Category Community Resources
+MapThingNum = 2508
+SpawnState  = S_KARTSPAWNER
+DeathState  = S_NULL
+Radius = 32*FRACUNIT
+Height = 32*FRACUNIT
+Flags  = MF_NOBLOCKMAP|MF_NOSECTOR|MF_NOGRAVITY
+
+# EMPTY KART INFORMATION:
+# - The "Parameter" of the object defines its weight.
+# - Check the "Ambush" Flag to keep the kart stationary.
+# - Check the "Special" Flag to 'rig' the horn of a kart if HORNMOD is loaded.
+
+# EMPTY KART SPAWNER INFORMATION:
+# - The "Parameter" of the object defines the weight of the karts it spawns.
+# - The "Angle" of the object determines the amount of time (in tics) between kart spawns.
+
+#===================#
+# State Definitions #
+#===================#
+
+# Empty Kart
+
+State S_KART
+SpriteName = KRTN
+Duration = -1
+Next = S_NULL
+
+State S_KARTSQUISHED
+SpriteName = KRTS
+Duration = -1
+Next = S_NULL
+
+State S_KARTSPAWNER
+Duration = -1
+Next = S_NULL

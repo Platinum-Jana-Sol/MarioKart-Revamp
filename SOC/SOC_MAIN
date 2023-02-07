@@ -1,0 +1,213 @@
+Level 49
+LevelName = DS Peach
+ZoneTitle = Gardens
+SubTitle = MK Revamp
+TypeOfLevel = Race
+NumLaps = 3
+SkyNum = 30
+Music = KMAP49
+RecordAttack = true
+NoVisitNeeded = true
+mobjscale = fracunit * 5/8
+
+Level 50
+LevelName = GBA Rainbow
+ZoneTitle = Road
+SubTitle = MK Revamp
+TypeOfLevel = Race
+NumLaps = 3
+SkyNum = 61
+SkyboxScale = 128
+Music = KMAP50
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+mobjscale = fracunit * 3/4
+
+Level 51
+LevelName = SNES Donut 
+ZoneTitle = Plains
+Act = 1
+SubTitle = MK Revamp
+TypeOfLevel = Race
+NumLaps = 4
+SkyNum = 42
+SkyboxScaleZ = 0
+Music = KMAP51
+RecordAttack = true
+NoVisitNeeded = true
+mobjscale = fracunit * 5/8
+
+Level 52
+LevelName = SNES Mario
+ZoneTitle = Circuit
+Act = 2
+SubTitle = MK Revamp
+TypeOfLevel = Race
+NumLaps = 4
+SkyNum = 41
+SkyboxScaleZ = 0
+Music = KMAP52
+RecordAttack = true
+NoVisitNeeded = true
+mobjscale = fracunit * 3/4
+
+Level 53
+LevelName = SNES Ghost
+ZoneTitle = Valley
+Act = 2
+SubTitle = MK Revamp
+TypeOfLevel = Race
+NumLaps = 5
+SkyNum = 46
+SkyboxScaleZ = 0
+Music = KMAP53
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 3
+mobjscale = fracunit * 5/8
+
+Level 54
+LevelName = SNES Bowser
+ZoneTitle = Castle
+Act = 3
+SubTitle = MK Revamp
+TypeOfLevel = Race
+NumLaps = 3
+SkyNum = 6343
+SkyboxScaleZ = 0
+Music = KMAP54
+RecordAttack = true
+NoVisitNeeded = true
+mobjscale = fracunit * 3/4
+
+Level 55
+LevelName = SNES Vanilla
+ZoneTitle = Lake
+Act = 2
+SubTitle = MK Revamp
+TypeOfLevel = Race
+NumLaps = 5
+SkyNum = 45
+SkyboxScaleZ = 0
+Music = KMAP55
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+mobjscale = fracunit * 5/8
+
+Level PJ
+LevelName = SNES Rainbow
+ZoneTitle = Road
+Subtitle = Reimagined by Plom510
+Music = SMKRRN
+TypeOfLevel = Race
+SkyNum = 117
+RecordAttack = true
+NoVisitNeeded = true
+NumLaps = 3
+Lua.Kartsoundscapes = true
+Lua.Finallapmusic = true
+Lua.Normalmusic = SMKRRN
+Lua.Finallap = SMKRRF
+Lua.Glidermusic = true
+Lua.Normalglider = SMKRRN
+Lua.Finalglider = SMKRRF
+
+LEVEL V8
+LevelName = Wii Luigi Circuit
+NoZone = true
+Subtitle = MK Revamp
+TypeOfLevel = Race
+RecordAttack = true
+NumLaps = 3
+SkyNum = 91
+NextLevel = 1
+Lua.Kartsoundscapes = true
+Lua.Finallapmusic = true
+Lua.Normalmusic = MAPV8M
+Lua.Finallap = MAPV8F
+Lua.Glidermusic = true
+Lua.Normalglider = MAPV8M
+Lua.Finalglider = MAPV8F
+
+LEVEL V9
+LevelName = GBA Bowser's Castle 3
+NoZone = true
+Subtitle = MK Revamp
+TypeOfLevel = Race
+SectionRace = false
+RecordAttack = true
+NumLaps = 3
+SkyNum = 9988
+NextLevel = 1
+Music = MAPV9M
+mobjscale = FRACUNIT * 4/5
+Weather = PRECIP_STORM_NORAIN
+Lua.Kartsoundscapes = true
+Lua.Finallapmusic = true
+Lua.Normalmusic = MAPV9M
+Lua.Finallap = MAPV9F
+Lua.Glidermusic = true
+Lua.Normalglider = MAPV9M
+Lua.Finalglider = MAPV9F
+
+LEVEL VK
+LevelName = WiiU Excitebike Arena
+NoZone = true
+Subtitle = MK Revamp
+TypeOfLevel = Race
+SectionRace = false
+RecordAttack = false
+NumLaps = 3
+SkyNum = 1
+NextLevel = 1
+Music = EXTBKE
+mobjscale = FRACUNIT * 1/2
+Lua.Kartsoundscapes = true
+Lua.Finallapmusic = true
+Lua.Normalmusic = EXTBKE
+Lua.Finallap = EXTBKF
+Lua.Glidermusic = true
+Lua.Normalglider = EXTBKE
+Lua.Finalglider = EXTBKF
+
+LEVEL VV
+LevelName = 3DS Rock Rock
+ZoneTitle = Mountain
+Subtitle = MK Revamp
+TypeOfLevel = Race
+SkyboxScale = 1000
+SectionRace = false
+RecordAttack = false
+NumLaps = 3
+SkyNum = 88
+NextLevel = 1
+mobjscale = FRACUNIT * 1/2
+Music = VVNORM
+Lua.Kartsoundscapes = true
+Lua.Finallapmusic = true
+Lua.Glidermusic = true
+Lua.Normalglider = VVNGLD
+Lua.Finallap = VVFLAP
+Lua.Finalglider = VVFGLD
+Lua.Normalmusic = VVNORM
+
+LEVEL VZ
+LevelName = N64 Bowser Castle
+NoZone = true
+Subtitle = MK Revamp
+TypeOfLevel = Race
+RecordAttack = true
+mobjscale = FRACUNIT * 3/4
+NumLaps = 3
+SkyNum = 11
+NextLevel = 1
+SkyboxScale = 25
+Lua.Kartsoundscapes = true
+Lua.Finallapmusic = true
+Lua.Normalmusic = MAPVZM
+Lua.Finallap = MAPVZF
+Lua.Glidermusic = true
+Lua.Normalglider = MAPVZM
+Lua.Finalglider = MAPVZF

@@ -1,0 +1,61 @@
+#===========#
+# Freeslots #
+#===========#
+
+Freeslot
+# Traffic Cone
+MT_TRAFFICCONE
+SPR_CONE
+S_CONE
+# Traffic Cone Hit
+SFX_CONH
+SPR_CONH
+S_CONEHIT1
+S_CONEHIT2
+
+#====================#
+# Object Definitions #
+#====================#
+
+Object MT_TRAFFICCONE
+#$Name Traffic Cone
+#$Sprite CONEA2A8
+#$Category Community Resources
+MapThingNum = 2505
+SpawnState  = S_CONE
+SpawnHealth = 1000
+DeathState  = S_CONEHIT1
+DeathSound  = SFX_CONH
+Radius = 16*FRACUNIT
+Height = 32*FRACUNIT
+Flags  = MF_SPECIAL|MF_PUSHABLE|MF_SHOOTABLE|MF_BOUNCE
+
+#===================#
+# State Definitions #
+#===================#
+
+# Traffic Cone
+
+State S_CONE
+SpriteName = CONE
+Duration = -1
+Next = S_NULL
+
+State S_CONEHIT1
+SpriteName  = CONH
+SpriteFrame = A
+Duration = 1
+Action = A_BunnyHop
+Var1 = 2
+Var2 = 10
+Next = S_CONEHIT2
+
+# Cone Rotates
+
+State S_CONEHIT2
+SpriteName = CONH
+SpriteSubNumber = FF_ANIMATE|B
+Duration = 12
+Var1 = 11
+Var2 = 1
+Next = S_NULL
