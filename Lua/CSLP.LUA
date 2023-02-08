@@ -17,5 +17,6 @@ end, MT_FALLINGROCK)
 addHook("MobjSpawn", function(mobj)
 	if gamemap == 887 then
 		mobj.scale = 2*FRACUNIT
+		mobj.fuse = 5*35
 	end
 end, MT_ROCKTREE)
